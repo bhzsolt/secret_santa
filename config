@@ -1,4 +1,2 @@
-sender@gmail.com:'\t'(app)password
-...
-name:'\t'emailaddress'\t'additional information
-...
+sender@gmail.com:	(app)password
+name:	emailaddress	additional information

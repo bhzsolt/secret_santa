@@ -18,7 +18,7 @@ def get_players(filename):
         field = line.split(':\t')
         name = field[0]
         field = field[1].split('\t')
-        players.append(mkperson(field[0], field[0], field[1:]))
+        players.append(mkperson(name, field[0], field[1:]))
     return sender, pwd, players
 
 def valid(x):
